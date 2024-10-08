@@ -1,0 +1,279 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(244, 238, 245);
+} 
+
+h1{
+    text-align: center;
+    font-size: 300px;
+    width: 100px auto;
+    margin: 10px 10px 10px 10px;
+
+    margin-bottom: 100px;
+
+    text-shadow:0 8px 15px rgba(166, 98, 178, 0.9);
+     /* text-shadow:0 8px 15px rgba(27, 2, 2, 0.9);  */
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.clip{
+    margin-bottom: 50px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+
+    
+}
+.clip:hover{
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+
+.pitch{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    background-color: #d4e6b5;
+    border-radius: 9px;
+    width:80ex;
+}
+.pitchTwo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    width: 80%;
+    margin-bottom: 10%;
+    text-shadow:0 8px 15px rgba(162, 142, 166, 0.9);
+
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(106, 106, 4);
+    color: whitesmoke; 
+    border-radius: 10px;
+    width: 25ex;
+    margin: 15px auto;
+}
+h3{
+    text-align: left;
+    margin-left: 60px;
+    margin-top:auto;
+    font-size: 80px;
+    width:90%;
+    height:auto;
+}
+.hedForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 99px;
+    margin-bottom: 12%;
+    flex-direction:row;
+    background-color: #f5a5a5;
+    border: 3px solid black;
+    border-radius: 35px;
+    padding: 50px;
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+    
+}
+.fill{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 50px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+.hedThird{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+}
+.form-group{
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+label{
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 20px;
+
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+
+    border-radius: 15px;
+    padding: 20px;
+    margin-inline:15px;
+    margin-top:15px;
+    margin-bottom: 40px;
+
+    background-color: white;
+}
+
+
+.imagePara{
+    display: flex;
+    flex-direction:row;
+    margin-top:100px;
+    margin-bottom:200px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.twoMen{
+    height: 1%;
+    margin-left:50px;
+    margin-top: 90px;
+    border-radius: 25px;
+}
+
+.para{
+    font-family:cursive;
+    font-size: 30px;
+}
+
+
+.status{
+    color:red;
+}
+
+
+.submit{
+  padding: 18px;
+  background-color:#333333; 
+  color: white;
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 20px;
+  margin-inline: 15px auto;
+}
+
+.credits{
+    color: white;
+    text-align: center;
+    font: 10px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+/*Styling for the Footer background*/
+footer{
+    background-color: #111;
+}
+/*Styling for the footer container*/
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+/*Adjusting footer nav*/
+.footerNav{
+    margin: 30px 0;
+}
+/*Adjusting the ul to center*/
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+/*Adding style to ul li and a*/
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    box-shadow:0 4px 6px rgba(255, 255, 255, 0.2);
+}
+/*Adding hover effects to the links*/
+.footerNav ul li a:hover{
+    opacity: 60%;
+    color: black;
+    border-radius: 5px;
+    padding: 4px;
+    background-color:yellow;
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(255, 255, 255, 0.9);
+}
+
+/*Styling for Fotter Bottom*/
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Styling for P tag Copyright in Footer Bottom*/
+.footerBottom p{
+    color: white;
+}
+
+/*Styling for the Designer in Footer Bottom*/
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/*Adding animation for Footer Nav ul and li*/
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
